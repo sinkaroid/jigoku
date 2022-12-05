@@ -15,17 +15,17 @@ from jigoku.utils.scrape_pages import download_from_multiple_pages
 try:
     file = inputimeout(
         prompt="[+] Please enter file you want to bulk download (e.g. file.txt): ", 
-        timeout=10
+        timeout=30
     )
     
     download_by = inputimeout(
         prompt="[+] Please choose (1) Multiple posts or (2) Multiple pages: ",
-        timeout=10,
+        timeout=30,
     )
     
     select_type = inputimeout(
         prompt="[+] Select type image results (1) Original size or (2) Smaller size: ", 
-        timeout=10
+        timeout=30
     )
 
 except TimeoutOccurred:
