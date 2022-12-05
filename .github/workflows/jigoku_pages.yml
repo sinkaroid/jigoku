@@ -22,4 +22,4 @@ jobs:
           python setup.py install
       - name: Jigoku test
         run: |
-          printf "test/example_pages\n2\n2\n" | jigoku
+          printf "test/example_pages\n2\n1\n" | jigoku
