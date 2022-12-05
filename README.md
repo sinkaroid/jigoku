@@ -7,7 +7,7 @@
 	<a href="https://github.com/sinkaroid/jigoku/actions/workflows/jigoku_pages.yml"><img src="https://github.com/sinkaroid/jigoku/workflows/bulk%20multiple%20pages/badge.svg"></a>
 </p>
 
-Jigoku is a CLI tool for downloading content arround the imageboards, seamlessly integrates with popular website like danbooru, rule34, danbooru, and many more. It's also modular, no matter what kind of links you have, what kind imageboard you want to download from, If still covered by the flow, this tools will adapt.
+Jigoku is a CLI tool for downloading content arround the imageboards, seamlessly integrates with popular website like danbooru, rule34, gelbooru, and many more. It's also modular, no matter what kind of links you have, what kind imageboard you want to download from, If still covered by the flow, this tools will adapt.
 
 <a href="#usage">🚀 Usage</a> •
 <a href="https://github.com/sinkaroid/jigoku/actions">Testing Cases</a> •
@@ -45,7 +45,7 @@ Welp, It's not tough actually if still same website, there is also tampermonkey 
 <img src="https://cdn.discordapp.com/attachments/1046495201176334467/1049089263247032370/jigoku_flow_1.png" width="800" alt="jigoku">
 
 
-No more tampermonkey hacks, no more opening a fuckton of tabs, no more spliting your note between r34, gelbooru, e621 or anything else. Just one command through single file, this tools will adapt.  
+No more tampermonkey hacks, no more opening a fuckton of tabs, no more spliting your note between danbooru, gelbooru, r34 or anything else. Just one command through single file, this tools will adapt.  
 
 Jigoku apply connection retry on failed, every your network changes or something else, It will keep waiting. 
 
