@@ -25,10 +25,9 @@ class Jigoku:
         image_name = url.split("/")[-1]
         image_name = image_name.split("?")[0]
         
-        ## if image_name exceed >255, get the extension, then truncate the image_name
-        if len(image_name) > 255:
+        if len(image_name) > 200:
             ext = image_name.split(".")[-1]
-            image_name = image_name[:255 - len(ext) - 1] + "." + ext
+            image_name = image_name[:200 - len(ext) - 1] + "." + ext
 
         return image_name
 
