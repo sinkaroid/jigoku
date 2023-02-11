@@ -1,4 +1,4 @@
-__version__ = "2.2.1"
+__version__ = "2.2.2"
 from .app import main
 from .utils.log import log_data, log_time, get_hostname
 from .utils.disk import get_size, clean_html
