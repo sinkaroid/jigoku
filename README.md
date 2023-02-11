@@ -7,7 +7,7 @@
 	<a href="https://github.com/sinkaroid/jigoku/actions/workflows/jigoku_pages.yml"><img src="https://github.com/sinkaroid/jigoku/workflows/bulk%20multiple%20pages/badge.svg"></a>
 </p>
 
-Jigoku is a CLI tool for downloading content arround the imageboards, seamlessly integrates with popular website like danbooru, rule34, gelbooru, and many more. It's also modular, no matter what kind of links you have, what kind imageboard you want to download from, If still covered by the flow, this tools will adapt.
+Jigoku is a CLI tool for downloading content around the imageboards, seamlessly integrates with popular website like danbooru, rule34, gelbooru, and many more. It's also modular, no matter what kind of links you have, what kind imageboard you want to download from, If still covered by the flow, this tools will adapt.
 
 <a href="#usage">🚀 Usage</a> •
 <a href="https://github.com/sinkaroid/jigoku/actions">Testing Cases</a> •
