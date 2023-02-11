@@ -34,10 +34,9 @@ Jigoku is a CLI tool for downloading content around the imageboards, seamlessly 
 
 ## The Problem
 
-<img src="https://cdn.discordapp.com/attachments/1046495201176334467/1049067378224410785/Screenshot_70.png" width="800" alt="jigoku">
-<img align="right" src="https://cdn.discordapp.com/attachments/1046495201176334467/1049104637313167380/pain_peko.png" width="80">  
+<img src="https://cdn.discordapp.com/attachments/1046495201176334467/1049067378224410785/Screenshot_70.png" width="800" alt="jigoku"> 
 
-Hell opening fuckton of tabs, and download them one by one. Piece of crap  
+Opening fuckton of tabs, and download them one by one. Piece of crap  
 Welp, It's not tough actually if still same website, there is also tampermonkey hacks to mock them, but what if you want to get 'em from multiple websites?
 
 
@@ -51,7 +50,7 @@ Jigoku apply connection retry on failed, every your network changes or something
 
 ## Features
 - Modular bulk download
-- 75% tested
+- 90% tested
 - Plenty of booru support
 - Connection retry on failure
 - Pure scraping, does not hit the API
@@ -158,4 +157,4 @@ like this tool deserves an attribution, mention it. It won't hurt anybody.
 > Licence: WTF.
 
 ## Pronunciation
-[`ja_JP`](https://www.localeplanet.com/java/ja-JP/index.html) • **jigoku** — 地獄、じごく, meaning "hell". The other mean if you opening fuckton of rule34 on google chrome tabs, then downloading one by one, Definitely hell and piece of crap
+[`ja_JP`](https://www.localeplanet.com/java/ja-JP/index.html) • **jigoku** — 地獄、じごく, meaning "hell". The other mean if you opening fuckton of rule34 tabs on browser, definitely hell and piece of crap
