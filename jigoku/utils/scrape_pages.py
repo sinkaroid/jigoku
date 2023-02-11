@@ -113,7 +113,7 @@ def download_from_multiple_pages(file: str, select_type: str) -> None:
                                     image_small = galeri
                                 
                                 else:
-                                    res = requests.get(galeri)
+                                    res = requests.get(galeri, headers=jgx.with_headers)
                                     soup = BeautifulSoup(res.text, "html.parser")
 
                                     if (
