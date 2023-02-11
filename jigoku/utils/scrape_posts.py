@@ -183,8 +183,15 @@ def download_from_multiple_posts(file: str, select_type: str) -> None:
                         break
 
                 except Exception as e:
-                    print(f"Retrying because {e} in 3 seconds..")
-                    time.sleep(3)
-                    continue
+                    if 'NoneType' in str(e):
+                        print(f"{line} Skipping with no continue because {e} | Check failed.log for more info")
+                        img_already_exist += 1
+                        with open("failed.log", "a") as f:
+                            f.write(line + "\n")
+                        break
+                    else:
+                        print(f"{line} Retrying because {e} in 3 seconds.. | {res.status_code}")
+                        time.sleep(3)
+                        continue
                 
         log_data(f"Downloaded {img_count} contents", f"Skipped {img_already_exist} contents")

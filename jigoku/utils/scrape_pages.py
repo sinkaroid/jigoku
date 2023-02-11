@@ -220,12 +220,18 @@ def download_from_multiple_pages(file: str, select_type: str) -> None:
                                     
 
                             except Exception as e:
-                                print(f"{galeri} Retrying because {e} in 3 seconds.. | {res.status_code}")
-                                time.sleep(3)
-                                continue
+                                if 'NoneType' in str(e):
+                                    print(f"{galeri} Skipping with no continue because {e} | Check failed.log for more info")
+                                    with open("failed.log", "a") as f:
+                                        f.write(galeri + "\n")
+                                    break
+                                else:
+                                    print(f"{galeri} Retrying duck because {e} in 3 seconds.. | {res.status_code}")
+                                    time.sleep(3)
+                                    continue
 
                     log_data(
-                        f"Downloaded {img_count} contents", f"which is comes from: {tags_count}"
+                        f"Downloaded {img_count} contents", f"which is comes from: {tags_count} with {len(tags_count)} pages"
                     )
 
                 else:
