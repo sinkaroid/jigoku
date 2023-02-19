@@ -3,28 +3,23 @@ import sys
 import time
 from inputimeout import inputimeout, TimeoutOccurred
 from jigoku.utils.log import log_time
-from jigoku.utils.scrape_posts import download_from_multiple_posts
-from jigoku.utils.scrape_pages import download_from_multiple_pages
+from jigoku.client.scrape_posts import download_from_multiple_posts
+from jigoku.client.scrape_pages import download_from_multiple_pages
 
-
-# from jigoku.utils.log import log_time
-## which is takes all galleries
-
-## from utils.log import log_time
 
 try:
     file = inputimeout(
-        prompt="[+] Please enter file you want to bulk download (e.g. file.txt): ", 
+        prompt="[+] Please enter file you want to bulk download (e.g. file.txt): ",
         timeout=30
     )
-    
+
     download_by = inputimeout(
         prompt="[+] Please choose (1) Multiple posts or (2) Multiple pages: ",
         timeout=30,
     )
-    
+
     select_type = inputimeout(
-        prompt="[+] Select type image results (1) Original size or (2) Smaller size: ", 
+        prompt="[+] Select type image results (1) Original size or (2) Smaller size: ",
         timeout=30
     )
 
