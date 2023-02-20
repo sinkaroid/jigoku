@@ -33,7 +33,7 @@ setup(
         "Issue tracker": "https://github.com/sinkaroid/jigoku/issues/new/choose",
         "Documentation": "https://github.com/sinkaroid/jigoku/wiki",
     },
-    packages=['jigoku', 'jigoku.utils'],
+    packages=['jigoku', 'jigoku.constant', 'jigoku.utils', 'jigoku.client'],
     license='MIT',
     classifiers=[
         'Development Status :: 3 - Alpha',

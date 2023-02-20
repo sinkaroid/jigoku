@@ -2,14 +2,10 @@ import requests
 import os
 import time
 import re
-import pkg_resources
 from bs4 import BeautifulSoup
 from jigoku.utils.log import log_data
 from jigoku.utils.disk import get_size
-from jigoku.utils.constant import Jigoku
-version = pkg_resources.require("jigoku")[0].version
-
-# from jigoku.utils.log import log_data, get_hostname
+from jigoku.constant.base import Jigoku
 
 jgx = Jigoku()
 
@@ -155,7 +151,7 @@ def download_from_multiple_posts(file: str, select_type: str) -> None:
                             if not os.path.exists(final_name):
                                 img_count += 1
                                 ##current_progress = f"{img_count} / {len(f.readlines()) + 1}"
-                                image = requests.get(final_img, stream=True)
+                                image = requests.get(final_img, stream=True, headers=jgx.with_headers)
                                 with open(final_name, "wb") as f:
                                     f.write(image.content)
                                 

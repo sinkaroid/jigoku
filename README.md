@@ -56,6 +56,7 @@ Jigoku apply connection retry on failed, every your network changes or something
 - Pure scraping, does not hit the API
 - Download with ease
 - Interactive prompt
+- ~~Multithreaded~~ too nasty, low coverage
 
 ## Site support
 
@@ -84,10 +85,6 @@ Jigoku supports the following imageboards:
 <table>
 	<td><b>NOTE:</b> Python 3.7 or above</td>
 </table>
-
-Jigoku depends on
-- [requests](https://pypi.org/project/requests/) Python HTTP Client
-- [beautifulsoup4](https://pypi.org/project/beautifulsoup4/) HTML Parser
 
 ## Installation
 It's fairly simple to use jigoku

@@ -2,12 +2,10 @@ import requests
 import os
 import time
 import re
-import pkg_resources
 from bs4 import BeautifulSoup
 from jigoku.utils.log import log_data, get_hostname
 from jigoku.utils.disk import get_size, clean_html
-from jigoku.utils.constant import Jigoku
-version = pkg_resources.require("jigoku")[0].version
+from jigoku.constant.base import Jigoku
 
 jgx = Jigoku()
 
