@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/sinkaroid/jigoku/wiki"><img width="500" src="https://cdn.discordapp.com/attachments/1046495201176334467/1048406208714903635/jigoku_.png" alt="jigoku"></a>
+<a href="https://github.com/sinkaroid/jigoku/wiki"><img width="500" src="https://raw.githubusercontent.com/sinkaroid/jigoku/refs/heads/master/resources/project/images/jigoku_.png" alt="jigoku"></a>
 
 <h4 align="center">Bulk downloader for booru imageboards with evil intentions</h4>
 <p align="center">
@@ -34,14 +34,14 @@ Jigoku is a CLI tool for downloading content around the imageboards, seamlessly 
 
 ## The Problem
 
-<img src="https://cdn.discordapp.com/attachments/1046495201176334467/1049067378224410785/Screenshot_70.png" width="800" alt="jigoku"> 
+<img src="https://raw.githubusercontent.com/sinkaroid/jigoku/refs/heads/master/resources/project/images/Screenshot_70.png" width="800" alt="jigoku"> 
 
 Opening fuckton of tabs, and download them one by one. Piece of crap  
 Welp, It's not tough actually if still same website, there is also tampermonkey hacks to mock them, but what if you want to get 'em from multiple websites?
 
 
 ## The Solution
-<img src="https://cdn.discordapp.com/attachments/1046495201176334467/1049089263247032370/jigoku_flow_1.png" width="800" alt="jigoku">
+<img src="https://raw.githubusercontent.com/sinkaroid/jigoku/refs/heads/master/resources/project/images/jigoku_flow_1.png" width="800" alt="jigoku">
 
 
 No more tampermonkey hacks, no more opening a fuckton of tabs, no more spliting your note between danbooru, gelbooru, r34 or anything else. Just one command through single file, this tools will adapt.  
@@ -97,7 +97,7 @@ It's fairly simple to use jigoku
 ## Usage
 Just run without any arguments and interactive prompt will get you,  
 
-<img src="https://cdn.discordapp.com/attachments/1046495201176334467/1049111079562784778/17_1.png" width="600" alt="jigoku">  
+<img src="https://raw.githubusercontent.com/sinkaroid/jigoku/refs/heads/master/resources/project/images/17_1.png" width="600" alt="jigoku">  
 
 `$ jigoku`
 
